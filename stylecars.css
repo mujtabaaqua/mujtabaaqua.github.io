@@ -1,0 +1,117 @@
+body{
+    color: #1a202c; /* A dark gray for your text */
+    font-family: 'Inter', sans-serif;
+    line-height: 1.6;
+}
+.main-header {
+    background-color: #ffffff;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 50;
+
+}
+.nav-container {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #f97316;
+}
+.main-nav {
+    display: flex;
+    gap: 1.5rem;
+}
+.main-nav a {
+    color: #1a202c;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    font-size: 0.875rem;
+    font-weight: 500;
+}
+.h2intro {
+    text-align: center;
+    color:black;
+    font-size: 59px;
+    font-weight: bold;
+    margin-bottom: 2px;
+}
+.h3intro{
+
+    text-align: center;
+    color: orange;
+    font-size: 55px;
+    font-weight: bold;
+    margin-top: 1px;
+
+
+}
+.pintro{
+
+    text-align:center;
+    color: gray;
+}
+.header{
+    padding-right: 20%;
+    padding-left: 20%;
+}
+.cars{
+    display: flex;
+     justify-content: center;
+     align-items: center;
+    flex-direction: column;
+    background-color: #dadada;
+    height: 80vh;
+    display: flex;
+    border-radius: 10px;
+    margin: 6px;
+}
+
+/*
+    This container is what will hold your image and text side-by-side.
+*/
+.container {
+    display: flex; /* This is the key. It makes the children align in a row. */
+    justify-content: space-between; /* This pushes the two items to opposite ends. */
+    align-items: center; /* This vertically centers the items. */
+    width: 100%; /* Ensures the container fills its parent. */
+        height: 100%; /* A placeholder height for now */
+
+    padding: 2rem;
+}
+
+/*
+    We use `flex: 1` to make both the image container and the text container
+    equally share the available space.
+*/
+.car-image-container {
+    flex: 1;
+    background-color: #e2e8f0; /* Temporary background so you can see the div */
+    height: 111%; /* A placeholder height for now */
+    margin-right: 2rem;
+
+}
+.car-image-container img{
+    max-width:100%;
+    height: auto;
+}
+
+.text-content {
+    flex: 1;
+    padding-left: 10px;
+}
+
+/* Add some margin to separate the sections */
+.cars {
+    margin-bottom: 2rem;
+}
+
+
+
+
+
